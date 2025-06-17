@@ -1,8 +1,11 @@
 clc;
 clear;
 f = linspace(0.3,5,1000); 
-c=3e8;
-lambda=c./f.*1e-9;
+pi = acos(-1); 
+ep0= 1e-9 / (36 * pi);
+mu0= 4 * pi * 1e-7; 
+c=1 / sqrt(ep0 * mu0);
+lambda=c./f *1e-9;
 G1= 4.597653;
 G2=24.683648;
 d1=0.1224987 ;
