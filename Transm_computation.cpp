@@ -125,7 +125,7 @@ do{
     std::cout << "  Multi-Layer EM Absorber Broadband Solver \n";
     std::cout << "===========================================\n";
     std::cout << "Enter the number of absorber layers (N): ";
-    std::cin >> N;
+    std::cin  >> N;
 //
     if(N <= 0){
         std::cout << "Invalid layer count. Defaulting to N = 1!\n";
